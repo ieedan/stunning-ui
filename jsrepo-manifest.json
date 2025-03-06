@@ -1,4 +1,21 @@
 {
+	"meta": {
+		"authors": [
+			"Robert Shaw"
+		],
+		"bugs": "https://github.com/xiaoluoboding/stunning-ui/issues",
+		"description": "💚 Stunning UI is a collection of interactive Tailwind CSS components built for Vue and Nuxt.",
+		"homepage": "https://stunningui.design/",
+		"repository": "https://github.com/xiaoluoboding/stunning-ui",
+		"tags": [
+			"vue",
+			"nuxt",
+			"tailwindcss",
+			"vue3",
+			"shadcn-ui",
+			"magic-ui"
+		]
+	},
 	"categories": [
 		{
 			"name": "composables",
@@ -744,109 +761,12 @@
 			"name": "ui",
 			"blocks": [
 				{
-					"name": "accordion",
-					"directory": "components/ui/accordion",
-					"category": "ui",
-					"tests": false,
-					"subdirectory": true,
-					"list": true,
-					"files": [
-						"Accordion.vue",
-						"AccordionContent.vue",
-						"AccordionItem.vue",
-						"AccordionTrigger.vue",
-						"index.ts"
-					],
-					"localDependencies": [
-						"lib/utils"
-					],
-					"dependencies": [
-						"radix-vue@^1.8.1",
-						"@radix-icons/vue@^1.0.0"
-					],
-					"devDependencies": [],
-					"_imports_": {
-						"@/lib/utils": "{{lib/utils}}"
-					}
-				},
-				{
-					"name": "alert",
-					"directory": "components/ui/alert",
-					"category": "ui",
-					"tests": false,
-					"subdirectory": true,
-					"list": true,
-					"files": [
-						"Alert.vue",
-						"AlertDescription.vue",
-						"AlertTitle.vue",
-						"index.ts"
-					],
-					"localDependencies": [
-						"lib/utils"
-					],
-					"dependencies": [
-						"class-variance-authority@^0.7.0"
-					],
-					"devDependencies": [],
-					"_imports_": {
-						"@/lib/utils": "{{lib/utils}}"
-					}
-				},
-				{
-					"name": "avatar",
-					"directory": "components/ui/avatar",
-					"category": "ui",
-					"tests": false,
-					"subdirectory": true,
-					"list": true,
-					"files": [
-						"Avatar.vue",
-						"AvatarFallback.vue",
-						"AvatarImage.vue",
-						"index.ts"
-					],
-					"localDependencies": [
-						"lib/utils"
-					],
-					"dependencies": [
-						"radix-vue@^1.8.1",
-						"class-variance-authority@^0.7.0"
-					],
-					"devDependencies": [],
-					"_imports_": {
-						"@/lib/utils": "{{lib/utils}}"
-					}
-				},
-				{
-					"name": "badge",
-					"directory": "components/ui/badge",
-					"category": "ui",
-					"tests": false,
-					"subdirectory": true,
-					"list": true,
-					"files": [
-						"Badge.vue",
-						"index.ts"
-					],
-					"localDependencies": [
-						"lib/utils"
-					],
-					"dependencies": [
-						"class-variance-authority@^0.7.0"
-					],
-					"devDependencies": [],
-					"_imports_": {
-						"~/lib/utils": "{{lib/utils}}"
-					}
-				},
-				{
 					"name": "button",
 					"directory": "components/ui/button",
 					"category": "ui",
 					"tests": false,
 					"subdirectory": true,
-					"list": true,
+					"list": false,
 					"files": [
 						"Button.vue",
 						"index.ts"
@@ -864,229 +784,16 @@
 					}
 				},
 				{
-					"name": "card",
-					"directory": "components/ui/card",
-					"category": "ui",
-					"tests": false,
-					"subdirectory": true,
-					"list": true,
-					"files": [
-						"Card.vue",
-						"CardContent.vue",
-						"CardDescription.vue",
-						"CardFooter.vue",
-						"CardHeader.vue",
-						"CardTitle.vue",
-						"index.ts"
-					],
-					"localDependencies": [
-						"lib/utils"
-					],
-					"dependencies": [],
-					"devDependencies": [],
-					"_imports_": {
-						"@/lib/utils": "{{lib/utils}}"
-					}
-				},
-				{
-					"name": "carousel",
-					"directory": "components/ui/carousel",
-					"category": "ui",
-					"tests": false,
-					"subdirectory": true,
-					"list": true,
-					"files": [
-						"Carousel.vue",
-						"CarouselContent.vue",
-						"CarouselItem.vue",
-						"CarouselNext.vue",
-						"CarouselPrevious.vue",
-						"index.ts",
-						"interface.ts",
-						"useCarousel.ts"
-					],
-					"localDependencies": [
-						"lib/utils",
-						"ui/button"
-					],
-					"dependencies": [
-						"@radix-icons/vue@^1.0.0",
-						"embla-carousel-vue@^8.1.5",
-						"@vueuse/core@^10.11.0"
-					],
-					"devDependencies": [],
-					"_imports_": {
-						"@/lib/utils": "{{lib/utils}}",
-						"@/components/ui/button": "{{ui/button}}"
-					}
-				},
-				{
-					"name": "collapsible",
-					"directory": "components/ui/collapsible",
-					"category": "ui",
-					"tests": false,
-					"subdirectory": true,
-					"list": true,
-					"files": [
-						"Collapsible.vue",
-						"CollapsibleContent.vue",
-						"CollapsibleTrigger.vue",
-						"index.ts"
-					],
-					"localDependencies": [],
-					"dependencies": [
-						"radix-vue@^1.8.1"
-					],
-					"devDependencies": [],
-					"_imports_": {}
-				},
-				{
-					"name": "dropdown-menu",
-					"directory": "components/ui/dropdown-menu",
-					"category": "ui",
-					"tests": false,
-					"subdirectory": true,
-					"list": true,
-					"files": [
-						"DropdownMenu.vue",
-						"DropdownMenuCheckboxItem.vue",
-						"DropdownMenuContent.vue",
-						"DropdownMenuGroup.vue",
-						"DropdownMenuItem.vue",
-						"DropdownMenuLabel.vue",
-						"DropdownMenuRadioGroup.vue",
-						"DropdownMenuRadioItem.vue",
-						"DropdownMenuSeparator.vue",
-						"DropdownMenuShortcut.vue",
-						"DropdownMenuSub.vue",
-						"DropdownMenuSubContent.vue",
-						"DropdownMenuSubTrigger.vue",
-						"DropdownMenuTrigger.vue",
-						"index.ts"
-					],
-					"localDependencies": [
-						"lib/utils"
-					],
-					"dependencies": [
-						"radix-vue@^1.8.1",
-						"@radix-icons/vue@^1.0.0"
-					],
-					"devDependencies": [],
-					"_imports_": {
-						"~/lib/utils": "{{lib/utils}}"
-					}
-				},
-				{
-					"name": "input",
-					"directory": "components/ui/input",
-					"category": "ui",
-					"tests": false,
-					"subdirectory": true,
-					"list": true,
-					"files": [
-						"index.ts",
-						"Input.vue"
-					],
-					"localDependencies": [
-						"lib/utils"
-					],
-					"dependencies": [
-						"@vueuse/core@^10.11.0"
-					],
-					"devDependencies": [],
-					"_imports_": {
-						"~/lib/utils": "{{lib/utils}}"
-					}
-				},
-				{
-					"name": "navigation-menu",
-					"directory": "components/ui/navigation-menu",
-					"category": "ui",
-					"tests": false,
-					"subdirectory": true,
-					"list": true,
-					"files": [
-						"index.ts",
-						"NavigationMenu.vue",
-						"NavigationMenuContent.vue",
-						"NavigationMenuIndicator.vue",
-						"NavigationMenuItem.vue",
-						"NavigationMenuLink.vue",
-						"NavigationMenuList.vue",
-						"NavigationMenuTrigger.vue",
-						"NavigationMenuViewport.vue"
-					],
-					"localDependencies": [
-						"lib/utils"
-					],
-					"dependencies": [
-						"class-variance-authority@^0.7.0",
-						"radix-vue@^1.8.1",
-						"@radix-icons/vue@^1.0.0"
-					],
-					"devDependencies": [],
-					"_imports_": {
-						"@/lib/utils": "{{lib/utils}}"
-					}
-				},
-				{
 					"name": "scroll-area",
 					"directory": "components/ui/scroll-area",
 					"category": "ui",
 					"tests": false,
 					"subdirectory": true,
-					"list": true,
+					"list": false,
 					"files": [
 						"index.ts",
 						"ScrollArea.vue",
 						"ScrollBar.vue"
-					],
-					"localDependencies": [
-						"lib/utils"
-					],
-					"dependencies": [
-						"radix-vue@^1.8.1"
-					],
-					"devDependencies": [],
-					"_imports_": {
-						"@/lib/utils": "{{lib/utils}}"
-					}
-				},
-				{
-					"name": "separator",
-					"directory": "components/ui/separator",
-					"category": "ui",
-					"tests": false,
-					"subdirectory": true,
-					"list": true,
-					"files": [
-						"index.ts",
-						"Separator.vue"
-					],
-					"localDependencies": [
-						"lib/utils"
-					],
-					"dependencies": [
-						"radix-vue@^1.8.1"
-					],
-					"devDependencies": [],
-					"_imports_": {
-						"~/lib/utils": "{{lib/utils}}"
-					}
-				},
-				{
-					"name": "tabs",
-					"directory": "components/ui/tabs",
-					"category": "ui",
-					"tests": false,
-					"subdirectory": true,
-					"list": true,
-					"files": [
-						"index.ts",
-						"Tabs.vue",
-						"TabsContent.vue",
-						"TabsList.vue",
-						"TabsTrigger.vue"
 					],
 					"localDependencies": [
 						"lib/utils"
@@ -1105,7 +812,7 @@
 					"category": "ui",
 					"tests": false,
 					"subdirectory": true,
-					"list": true,
+					"list": false,
 					"files": [
 						"index.ts",
 						"Tooltip.vue",

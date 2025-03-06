@@ -10,7 +10,7 @@
   },
   "dirs": ["./", "./components"],
   "doNotListBlocks": [],
-  "doNotListCategories": ["lib"],
+  "doNotListCategories": ["lib", "ui"],
   "listBlocks": [],
   "listCategories": [],
   "excludeDeps": ["vue"],
